@@ -1,0 +1,35 @@
+name: Dependabot Commit NPM
+
+# Controls when the action will run
+on:
+  push:
+    branches:
+      - 'dependabot/npm_and_yarn/**'
+    paths:
+      - 'yarn.lock'
+
+jobs:
+  yarn:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '12'
+      - name: Setup Yarn to use Nexus
+        run: |
+          npm config set registry https://artifacts.dox.support/repository/npm
+          npm config set always-auth true
+          npm config set _auth $(echo -n ${{ secrets.NEXUS_PULL_USER }}:${{ secrets.NEXUS_PULL_PASS }} | openssl base64 -A)
+      - name: Install Dependencies
+        run: yarn install
+      - name: Commit changes
+        run: |
+          git config --local user.email `git show -s --format='%ae'`
+          git config --local user.name ${GITHUB_ACTOR}
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git add .
+          git commit -am "dependabot yarn install dependencies"
+          git push
