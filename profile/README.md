@@ -46,8 +46,8 @@ Clinicians get access to the best career opportunities available on our platform
 
 ## Useful Links
 
-[Technology Blog](http://technology.doximity.com)
-[People Blog](http://people.doximity.com)
-[Career Site](http://work.doximity.com)
-[Company About Page](https://www.doximity.com/about)
-[Open-source Contributions](http://github.com/doximity/)
+- [Technology Blog](http://technology.doximity.com)
+- [People Blog](http://people.doximity.com)
+- [Career Site](http://work.doximity.com)
+- [Company About Page](https://www.doximity.com/about)
+- [Open-source Contributions](http://github.com/doximity/)
