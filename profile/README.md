@@ -43,7 +43,7 @@ Clinicians get access to the best career opportunities available on our platform
 
 ## Our Culture Pillars
 
-![alt text](https://github.com/doximity/.github/blob/master/assets/mission-and-core-values.png?raw=true)
+<img width="683" alt="mission-and-core-values" src="https://user-images.githubusercontent.com/30396892/165768802-753e73e3-a97c-400b-a529-dfd33d599721.png">
 
 ## Useful Links
 
