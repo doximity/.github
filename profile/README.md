@@ -6,8 +6,7 @@ Our goal is to improve inefficiencies in our $3.5 trillion U.S. healthcare syste
 
 [Join Us](https://workat.doximity.com/)
 
-[![about-doximity-video](https://assets.doxcdn.com/image/upload/v1/logos/doximity/logo-og-doximity.png)](https://assets.doxcdn.com/video/upload/v1/videos/workat/video-about-doximity.mp4
-)
+https://user-images.githubusercontent.com/30396892/165769249-69dcf507-3fa9-41ca-b732-93f2d9811ffb.mp4
 
 Clinicians rely on Doximity every day. This is how we empower them. Learn about the [Technology Stack](https://technology.doximity.com/technology-stack) we use to empower clinicians.
 
