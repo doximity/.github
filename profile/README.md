@@ -43,80 +43,25 @@ Our platform gives clinicians access to the best career opportunities, improving
 
 ## Our Culture Pillars
 
-<div class="middle-child">
-    <p>
-    <img
-        alt=""
-        class="b-lazy b-loaded"
-        src="https://assets.doxcdn.com/image/upload/v1/apps/workat/illustrations/phone-being-held-with-logo-on-screen.svg"
-    />
-    </p>
-    <h3><strong>Mission</strong></h3>
-    <p>
-    Our mission is to connect healthcare professionals and make
-    their lives more productive.
-    </p>
-</div>
+### Mission
 
-<div class="middle-child">
-    <p>
-    <img
-        alt=""
-        class="b-lazy b-loaded"
-        src="https://assets.doxcdn.com/image/upload/v1/apps/workat/illustrations/gsd.svg"
-    />
-    </p>
-    <h3><strong>Get Stuff Done</strong></h3>
-    <p>
-    We are doers. We solve problems everyday by treating obstacles
-    like an adventure.
-    </p>
+Our mission is to connect healthcare professionals and make their lives more productive.
 
-<div class="middle-child">
-    <p>
-    <img
-        alt=""
-        class="b-lazy b-loaded"
-        src="https://assets.doxcdn.com/image/upload/v1/apps/workat/illustrations/straight-talk.svg"
-    />
-    </p>
-    <h3><strong>Straight Talk</strong></h3>
-    <p>
-    We say what we think and every voice is heard and respected.
-    Transparency makes us stronger.
-    </p>
-</div>
+### Get Stuff Done
 
-<div class="middle-child">
-    <p>
-    <img
-        alt=""
-        class="b-lazy b-loaded"
-        src="https://assets.doxcdn.com/image/upload/v1/apps/workat/illustrations/goals-mountains.svg"
-    />
-    </p>
-    <h3><strong>Stretch Goals</strong></h3>
-    <p>
-    Innovation requires us to push the limits. We challenge
-    assumptions and shoot for the stars.
-    </p>
-</div>
+We are doers. We solve problems everyday by treating obstacles like an adventure.
 
-<div class="middle-child">
-    <p>
-    <img
-        alt=""
-        class="b-lazy b-loaded"
-        src="https://assets.doxcdn.com/image/upload/v1/apps/workat/illustrations/thumbprint.svg"
-    />
-    </p>
-    <h3><strong>Bring the Real You</strong></h3>
-    <p>
-    We bring our quirky, unique selves to work. Diverse
-    personalities create a more interesting and creative
-    environment.
-    </p>
-</div>
+### Straight Talk
+
+We say what we think and every voice is heard and respected. Transparency makes us stronger.
+
+### Stretch Goals
+
+Innovation requires us to push the limits. We challenge assumptions and shoot for the stars.
+
+### Bring the Real You
+
+We bring our quirky, unique selves to work. Diverse personalities create a more interesting and creative environment.
 
 ## Useful Links
 
