@@ -8,3 +8,6 @@ permissions:
   pull_requests: write
   issues: write
   actions: write
+  vulnerability_alerts: read
+  administration: read
+  statuses: read
