@@ -10,4 +10,4 @@ permissions:
   actions: write
   vulnerability_alerts: read
   administration: read
-  statuses: read
+  statuses: write
