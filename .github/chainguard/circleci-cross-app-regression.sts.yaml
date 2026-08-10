@@ -1,0 +1,22 @@
+# Permit the auth-api cross-app-regression CircleCI workflow to fetch the
+# private test suite and mobile release artifacts. The CircleCI project ID and
+# VCS origin claims prevent other CircleCI projects and forked builds from
+# exchanging a token with these permissions.
+issuer: https://oidc.circleci.com/org/d42933a9-1ccc-4ebe-a32b-c0087e621e21
+subject_pattern: org/d42933a9-1ccc-4ebe-a32b-c0087e621e21/project/8b644ada-1e80-4aaa-b51e-60b6ef5289d8/user/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/vcs-origin/github\.com/doximity/auth-api/vcs-ref/refs/(heads|pull)/.*
+audience: d42933a9-1ccc-4ebe-a32b-c0087e621e21
+claim_pattern:
+  oidc.circleci.com/org-id: d42933a9-1ccc-4ebe-a32b-c0087e621e21
+  oidc.circleci.com/project-id: 8b644ada-1e80-4aaa-b51e-60b6ef5289d8
+  oidc.circleci.com/vcs-origin: github\.com/doximity/auth-api
+
+permissions:
+  contents: read
+
+repositories:
+  - auth-api
+  - qa-automation
+  - iOS-Doximity
+  - ios-amion-v2
+  - android-x
+  - android-amion-v2
