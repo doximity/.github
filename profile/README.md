@@ -1,5 +1,5 @@
-# Doximity is the #1 healthcare professional network
-We're building a Clinical AI Suite of tools across Telehealth, Scribe, AI We're the largest verified network of healthcare professionals in the U.S., connecting clinicians across specialties and care settings.
+# Doximity is the leading clinical AI company with the largest network of U.S. clinicians.
+Doximity’s AI-powered workflow platform is trusted by over 85% of U.S. physicians and 300+ health systems. Doximity's mission is to help clinicians be more productive so they can provide better care for their patients.
 #### Trusted by over 3 million U.S. clinicians.
 
 ### Doximity Ask
