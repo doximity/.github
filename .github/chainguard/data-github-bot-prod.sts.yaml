@@ -1,7 +1,7 @@
 # data-github-bot on prod-data-1 reacts to "mortar" PR comments org-wide.
 # Owner: infra-data. Ticket: INFRADATA-6210.
 #
-# Prod counterpart of data-github-bot.sts.yaml. An octo-sts policy has a single
+# Prod counterpart of data-github-bot-pre.sts.yaml. An octo-sts policy has a single
 # issuer, so each cluster gets its own policy and the bot selects it with
 # identity=data-github-bot-prod. The policy is in place ahead of the prod
 # deploy; nothing can exchange a token until that service account exists.
