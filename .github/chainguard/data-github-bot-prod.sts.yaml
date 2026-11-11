@@ -1,0 +1,16 @@
+# data-github-bot on prod-data-1 reacts to "mortar" PR comments org-wide.
+# Owner: infra-data. Ticket: INFRADATA-6210.
+#
+# Prod counterpart of data-github-bot.sts.yaml. An octo-sts policy has a single
+# issuer, so each cluster gets its own policy and the bot selects it with
+# identity=data-github-bot-prod. The policy is in place ahead of the prod
+# deploy; nothing can exchange a token until that service account exists.
+issuer: https://oidc.eks.us-east-1.amazonaws.com/id/75BAB9860F9016CABADE200CBDD7BDD2
+subject: system:serviceaccount:data-github-bot:data-github-bot-sa
+
+# No repositories list, like the renovate policy: anyone can comment on a PR in
+# any repo, so the token must work wherever the octo-sts App is installed.
+permissions:
+  # pull_requests: write is enough to add a reaction to a PR comment. It cannot
+  # change code, workflows, or settings.
+  pull_requests: write

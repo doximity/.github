@@ -1,0 +1,17 @@
+# data-github-bot on pre-data-1 reacts to "mortar ping" PR comments org-wide.
+# Owner: infra-data. Ticket: INFRADATA-6210.
+#
+# The issuer is the pre-data-1 EKS OIDC issuer and the subject is the pod's
+# service account, so only that one workload can exchange a token. There is no
+# audience override: octo-sts then requires its own domain, which is what the
+# projected service account token carries.
+issuer: https://oidc.eks.us-east-1.amazonaws.com/id/FC75D2659CD6D13EC9C7691F850B4D45
+subject: system:serviceaccount:data-github-bot:data-github-bot-sa
+
+# No repositories list, like the renovate policy: anyone can comment
+# "mortar ping" on a PR in any repo, so the token must work wherever the octo-sts
+# App is installed.
+permissions:
+  # pull_requests: write is enough to add a reaction to a PR comment. It cannot
+  # change code, workflows, or settings.
+  pull_requests: write
